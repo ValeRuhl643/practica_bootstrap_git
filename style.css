@@ -1,6 +1,33 @@
+.me-2 {
+   border-radius: 0;
+   border: 1px solid green;
+   margin: 0 !important;
+}
 
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: greenyellow;
+    outline: 0;
+    box-shadow: none;
+}
+
+.btn-outline-success {
+    border-radius: 0;
+}
+
+.accordion-container {
+    margin: 40px;
+    margin-top: 0;
+}
 
 .card-container {
     display: flex;
-    padding: 3px;
+    margin: 30px;
+    margin-top: 70px;
+}
+
+.card {
+    padding: 5px;
+    margin: 10px;
 }
